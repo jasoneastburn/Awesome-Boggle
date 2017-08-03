@@ -13,6 +13,8 @@
 		334C596E1F3207CA00804520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334C596D1F3207CA00804520 /* Assets.xcassets */; };
 		334C59711F3207CA00804520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334C596F1F3207CA00804520 /* LaunchScreen.storyboard */; };
 		334C597C1F3207CA00804520 /* Awesome_BoggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C597B1F3207CA00804520 /* Awesome_BoggleTests.swift */; };
+		334C59871F3210F200804520 /* BoggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C59861F3210F200804520 /* BoggleView.swift */; };
+		334C59891F3218D600804520 /* BoggleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334C59881F3218D600804520 /* BoggleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		334C59771F3207CA00804520 /* Awesome BoggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awesome BoggleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		334C597B1F3207CA00804520 /* Awesome_BoggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awesome_BoggleTests.swift; sourceTree = "<group>"; };
 		334C597D1F3207CA00804520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334C59861F3210F200804520 /* BoggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleView.swift; sourceTree = "<group>"; };
+		334C59881F3218D600804520 /* BoggleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				334C59661F3207CA00804520 /* AppDelegate.swift */,
 				334C59681F3207CA00804520 /* ViewController.swift */,
 				334C596A1F3207CA00804520 /* Main.storyboard */,
+				334C59881F3218D600804520 /* BoggleModel.swift */,
+				334C59861F3210F200804520 /* BoggleView.swift */,
 				334C596D1F3207CA00804520 /* Assets.xcassets */,
 				334C596F1F3207CA00804520 /* LaunchScreen.storyboard */,
 				334C59721F3207CA00804520 /* Info.plist */,
@@ -202,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				334C59691F3207CA00804520 /* ViewController.swift in Sources */,
+				334C59891F3218D600804520 /* BoggleModel.swift in Sources */,
 				334C59671F3207CA00804520 /* AppDelegate.swift in Sources */,
+				334C59871F3210F200804520 /* BoggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
